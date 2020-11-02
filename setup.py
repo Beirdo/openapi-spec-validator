@@ -75,12 +75,14 @@ setup(
         "PyYAML>=5.1",
         "six",
         'pathlib2;python_version=="2.7"',
-        'requests',
     ],
     extras_require={
         'dev': [
-            'pre-commit'
-        ]
+            'pre-commit',
+        ],
+        'requests': [
+            'requests',
+        ],
     },
     tests_require=[
         "mock",
